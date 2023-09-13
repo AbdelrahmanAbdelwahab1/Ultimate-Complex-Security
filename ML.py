@@ -1,4 +1,12 @@
 import pandas as pd
+import security
+import numpy as np
+from sklearn.model_selection import train_test_split, GridSearchCV, StratifiedKFold
+from sklearn.datasets import make_classification
+from sklearn.pipeline import Pipeline
+from xgboost import XGBClassifier
+from sklearn.feature_selection import SelectKBest, chi2
+from imblearn.over_sampling import SMOTE
 
 from sklearn.metrics import classification_report
 
@@ -42,6 +50,5 @@ print(classification_report(y_test, y_pred))
 print(f'Accuracy on test set: {grid.score(X_test, y_test):.4f}')
 
 # Import the entire module
-import security
 
 security.call()
