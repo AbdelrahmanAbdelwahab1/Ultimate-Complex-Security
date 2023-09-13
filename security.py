@@ -4,7 +4,6 @@ import pandas as pd
 from sklearn.model_selection import train_test_split, GridSearchCV, StratifiedKFold
 from sklearn.datasets import make_classification
 from sklearn.pipeline import Pipeline
-from sklearn.svm import SVC
 from xgboost import XGBClassifier
 from sklearn.feature_selection import SelectKBest, chi2
 from imblearn.over_sampling import SMOTE
