@@ -5,6 +5,8 @@ Authored-with: https://github.com/AbdelrahmanAbdelwahab1
 
 This project is made from a combination of Cloudflare's API, Akamai's API, and machine learning. The machine learning model is the XG Boost model to determine whether the IP is suspicious or safe.
 
+The research paper link: www.ys-journal.org/issues/issue_10.html?article=19
+
 
 
 
